@@ -55,6 +55,7 @@ public class Ruin {
 			expectedRuin = 1 - 1.0 * (startAmount) / winLimit;
 		}
 		else {
+			
 			expectedRuin = 
 	(Math.pow(alpha, 1.0 * startAmount) - Math.pow(alpha, 1.0 * winLimit)) / (1 - Math.pow(alpha, winLimit*1.0));
 		}
