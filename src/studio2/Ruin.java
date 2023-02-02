@@ -42,10 +42,11 @@ public class Ruin {
 			}
 			if (currentAmount == winLimit)
 				System.out.println("Similation " + (i+1) +":" + + count + " WIN");
+			double ruinRate = losses / 500.0;
+			System.out.println("Losses: " + losses + "Simulations: " + totalSimulations);
+			System.out.println("Ruin Rate from Simulation: " + ruinRate);
 			}
-		double ruinRate = losses / 500.0;
-		System.out.println("Losses: " + losses + "Simulations: " + totalSimulations);
-		System.out.println("Ruin Rate from Simulation: " + ruinRate);
+		
 		
 		
 		double expectedRuin;

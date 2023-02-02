@@ -21,7 +21,6 @@ public class Pi {
 				count = count + 1;
 			}
 		}
-		
 		pi = count * 1.0 / totalSimulations * 4;
 		System.out.println("Pi is: " + pi);
 	}
